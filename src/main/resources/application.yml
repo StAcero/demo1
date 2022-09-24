@@ -1,0 +1,17 @@
+  spring:
+    security:
+      oauth2:
+        client:
+          registration:
+            auth0:
+              client-id: 6fRGnip8xkUospvldffoz9xRtsM1V10G
+              client-secret: vjCCmLe_Pao3rCHleMrMBy96TVSL47R1mLFxp2T3zunjBZex8Zng8As-mFNMd7iH
+
+              scope:
+                - openid
+                - profile
+                - email
+          provider:
+            auth0:
+              # trailing slash is important!
+              issuer-uri: https://demo1task.us.auth0.com/

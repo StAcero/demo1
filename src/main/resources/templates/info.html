@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/styles.css">
+<!--    <style type="text/css">
+        body{
+        background-color: cornsilk;
+    </style>
+ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Práctica Semana 5</title>
+</head>
+<body>
+<h1>Hola Mundo con HTML</h1>
+<h2>Hola Mundo con HTML</h2>
+<h3>Hola Mundo con HTML</h3>
+<h4>Hola Mundo con HTML</h4>
+<h5>Hola Mundo con HTML</h5>
+<h6>Hola Mundo con HTML</h6><br>
+<h3>Etiquetas de Parrafo y Container</h3>
+<p>H1 - H6 Hasta seis niveles de títulos y subtítulos. De más a menos tamaño.</p>
+<p>DIV Permite dividir contenido en bloques.</p>
+<p>P Para mostrar texto plano.</p><br>
+<span>Etiquetas para textos cortos</span><br>
+<h3>Etiquetas para hipervinculos</h3>
+<a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/button">Documentación de la etiqueta button</a><br>
+<h3>Etiqueta y elementos de Formulario</h3>
+<form class="form2">
+    <input placeholder="Registre el Nombre" type="text"><br><br>
+    <label>Registre número de Cédula</label><input type="number"><br><br>
+    <label>Seleccione fecha y tiempo</label><input type="datetime-local"><br><br>
+    <label>Seleccione edad</label><input type="radio" id="m18" value="Menor de 18" name="edad">Menor de edad<input type="radio" id="18" value="Mayor de 18" name="edad">Mayor de edad<br><br>
+    <label>Seleccione Opción A</label><input type="checkbox" id="chk1" name="chk">
+    <label>Seleccione Opción B</label><input type="checkbox" id="chk2" name="chk">
+    <label>Seleccione Opción C</label><input type="checkbox" id="chk3" name="chk"><br><br>
+    <textarea rows="20" cols="100" name="txt">Descripción del Producto</textarea><br><br>
+    <input type="checkbox" name="days" value="mon">Monday<br>
+    <input type="checkbox" name="days" value="tues">Tuesday<br>
+    <input type="checkbox" name="days" value="wed">Wednesday<br><br>
+    <label>Seleccione el nombre del Tripulante:</label>
+    <select>
+        <option value="Tripulante 1">Pepito</option>
+        <option value="Tripulante 2">Juanito</option>
+        <option value="Tripulante 3">Pablito</option>
+    </select><br><br>
+    <label>Seleccione el Archivo:</label>
+    <input type="file"><br><br>
+    <h3>Listas en HTML</h3>
+    <div id="colorDiv2">
+    <div>
+        <ol>
+            <li>Julio</li>
+            <li>Carmen</li>
+            <li>Ignacio</li>
+            <li>Maria</li>
+        </ol>
+    </div><br><br>
+    <div>
+        <ul>
+            <li>Julio</li>
+            <li>Carmen</li>
+            <li>Ignacio</li>
+            <li>Maria</li>
+        </ul>
+    </div>
+    </div><br><br>
+    <div>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Cédula</th>
+            </tr>
+            <tr>
+                <td>Pepito</td>
+                <td>Perez</td>
+                <td>252525</td>
+            </tr>
+        </table>
+    </div><br><br>
+    <h1>Grid y Flex</h1>
+    <div class="wrapper">
+        <div>Primero</div>
+        <div>Segundo</div>
+        <div>Tercero</div>
+        <div>Cuarto</div>
+        <div>Quinto</div>
+        <div>Sexto</div>
+    </div><br>
+
+<main>
+    <h1>-Bootstrap-</h1>
+    <div id="main" class="px-4 py-5 my-5 text-center">
+        <h2>Mi primer Landing Page</h2>
+        <img src="../static/img/tareas1.png" class="d-block mx-auto mb-4" height="100" alt="Ofrecemos disculpas página en construcción">
+        <h3 class="display-5 fw-bold">Gestión de Tareas</h3>
+        <p>Parrafo</p>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">You can also include Popper and our JS separately. If you don’t plan to use dropdowns, popovers, or tooltips, save some kilobytes by not including Popper.</p>
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-10">b1</button>
+            <button type="button" class="btn btn-outline-success btn-lg px-4 gap-10">b2</button>
+        </div>
+
+    </div>
+</main><br><br>
+
+<label>Haga clic Aquí para enviar la información</label><button class="enviarinfo" type="submit">Enviar</button>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

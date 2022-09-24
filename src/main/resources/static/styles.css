@@ -1,0 +1,51 @@
+body{
+background-color : blue;
+}
+h1{
+font-size : 60px;
+color : brown;
+text-align : center;
+}
+.form2{
+background-color : green;
+}
+#colorDiv2{
+background-color : darkgoldenrod;
+}
+
+table{
+margin : 15px;
+padding : 15px;
+background-color : silver;
+}
+tr{
+background-color : burlywood;
+}
+th{
+background-color : chartreuse;
+}
+.enviarinfo{
+background-color : coral;
+color : white;
+border-radius : 20px;
+padding : 15px;
+margin : 30px;
+}
+.wrapper{
+display: grid;
+position : relative;
+top : 20px;
+left : 30px;
+justify-content : flex-start;
+background-color : yellow;
+border-radius :200px;
+padding :20px;
+text-align : center;
+font-size : 30px;
+grid-row-gap : 25px;
+grid-template-columns : 1fr 1fr 1fr 1fr;
+/*grid-template-columns: 200px 200px 200px 200px;*/
+}
+#main{
+background-color : grey;
+}
